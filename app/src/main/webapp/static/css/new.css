@@ -1,0 +1,12 @@
+.back-to-root {
+    background-color: #51c7c7; /* зеленый цвет */
+    color: #fff; /* белый текст */
+    padding: 10px 20px; /* отступы */
+    border: none; /* без рамки */
+    border-radius: 5px; /* закругленные углы */
+    cursor: pointer; /* указатель мыши */
+}
+
+.back-to-root:hover {
+    background-color: #51c7c7; /* темнее зеленый цвет при наведении */
+}

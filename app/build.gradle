@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'com.example'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'jakarta.servlet:jakarta.servlet-api:5.0.0'
+    implementation 'javax.servlet.jsp.jstl:jstl-api:1.2'
+    implementation 'org.glassfish.web:jstl-impl:1.2'
+}
+
+
+war {
+    archiveName = 'server.war'
+}
